@@ -1,0 +1,177 @@
+.user-container{
+    background:#E5E5E5;
+    .user-sub{
+        display: flex;
+        .right-Container{
+            width: 100%;
+            .heading-container{
+                background: #FFFFFF;
+                padding: 20px 30px;
+                margin: 1px;
+                height: 64px;
+                .heading{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+            }
+
+            .dataContainer{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .pages{
+                    display: flex;
+                    width: 300px;
+                    justify-content: space-evenly;
+                    align-self: flex-end;
+                    margin-top: 10px;
+                    margin-bottom: 35px;
+                    margin-right: 25px;
+
+                    p{
+                        padding-top: 15px;
+                    }
+
+                    .left-arrow{
+                        background: #FFFFFF;
+                        border: 1px solid #CACCCF;
+                        box-shadow: 0px 2px 4px rgba(216, 216, 216, 0.52);
+                        border-radius: 4px;
+                        width: 36px;
+                        height: 36px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .active{
+                        background: #FE724C;
+                        width: 36px;
+                        height: 36px;
+                        border: 1px solid #CACCCF;
+                        border-radius: 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .sub-container{
+                    width: 95%;
+                    background-color: #FFFFFF;
+                    border-radius: 4px;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .search-container{
+                        margin: 10px 20px;
+                        border: 1px solid #CACCCF;
+                        border-radius: 4px;
+                        padding: 10px 20px;
+                        width: 300px;
+                        display: flex;
+                        height: 36px;
+                        align-self: flex-end;
+
+                        .input-el{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 16px;
+                            color: #CACCCF;
+                            height: 100%;
+                            border: none;
+                            outline: none;
+                        }
+                    }
+
+                    .hr-line{
+                        border: 1px solid #DBDDE0;
+                    }
+
+                    .tableContainer{
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 0px;
+                        margin: 0px;
+                    }
+                    th{
+                        padding-left: 30px;
+                    }
+                    td{
+                        padding-left: 30px;
+                    }
+
+
+                    .width{
+                        width: 150px;
+                    }
+
+
+                    .name-th{
+                        display: flex;
+                    }
+
+                    .data-width{
+                        width: 220px;
+                        font-size: 14px;
+                    }
+
+                    .review-width{
+                        padding-right: 100px;
+                        padding-left: 100px;
+                    }
+
+                    .rating{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #FE724C;
+
+                    }
+
+                    .unPublished{
+                        width: 137px;
+                        height: 36px;
+                        background: #FFFFFF;
+                        border: 1px solid #CACCCF;
+                        border-radius: 4px;
+                        margin-left: 20px;
+                    }
+
+                    .published1{
+                        width: 102px;
+                        height: 36px;
+                        background: #FE724C;
+                        border-radius: 4px;
+                        color: #FFFFFF;
+                        border: none;
+                    }
+
+                    .published2{
+                        width: 101px;
+                        height: 36px;
+                        background: #DBDDE0;
+                        border: 1px solid #CACCCF;
+                        border-radius: 4px;
+                        color: #52575C;
+                    }
+                    .tableData-0{
+                        height: 106px;
+                        background: #F9F9FA;
+                    }
+
+                    .tableData-1{
+                        height: 106px;
+                    }
+
+
+                }
+
+            }
+
+
+        }
+    }
+}

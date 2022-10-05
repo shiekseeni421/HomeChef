@@ -22,7 +22,7 @@ export default function LoginPage() {
 
     if (Username === "admin123") {
       if (data["UserPassword"] === "admin123") {
-        let path = "/userdata";
+        let path = "/home";
 
         setTimeout(() => {
           navigate(path);
